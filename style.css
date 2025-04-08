@@ -1,0 +1,110 @@
+/* style.css - Icon 10CS Gói 62.5ml */
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #333;
+  line-height: 1.6;
+}
+
+header.site-header {
+  background-color: #007a33;
+  color: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header.site-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header.site-header p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.content {
+  padding: 2rem 1.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+section img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
+
+blockquote {
+  font-style: italic;
+  background: #f1f1f1;
+  padding: 1rem;
+  border-left: 5px solid #007a33;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #007a33;
+  border-bottom: 2px solid #007a33;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  color: #444;
+  margin-top: 1.5rem;
+}
+
+ul, ol {
+  padding-left: 1.5rem;
+}
+
+ul li, ol li {
+  margin-bottom: 0.5rem;
+}
+
+.split {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.split > div {
+  flex: 1;
+  min-width: 250px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+table th {
+  background-color: #007a33;
+  color: #fff;
+}
+
+footer.site-footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 1.5rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
