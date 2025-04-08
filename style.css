@@ -1263,3 +1263,19 @@
 .accordion-item.active .accordion-content {
   display: block;
 }
+.feature-table table {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.feature-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.feature-table td,
+.feature-table th {
+  font-size: 14px;
+  line-height: 1.6;
+}
